@@ -1,0 +1,246 @@
+@media (max-width: 992px) {
+
+    /* navbar start  */
+    .navbar {
+        padding: 20px 0;
+        border-radius: 0px;
+        background: #e0e0e0;
+        box-shadow: 20px 20px 40px #bebebe,
+            -20px -20px 40px #ffffff;
+    }
+
+    .navbar .row .menu_bar ul li {
+        display: none;
+
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .menu_icon {
+        display: block;
+    }
+
+    /* navbar end  */
+    /* banner start  */
+    .banner .row .contain {
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .banner .row .contain .sub_row .sub {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner .row .image {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* banner end  */
+    /* about start  */
+    .about {
+        margin: auto;
+    }
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .row {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .about .row .img_icon {
+        width: 100%;
+        margin: auto;
+    }
+
+    .about .row .img_icon img {
+        width: 100%;
+
+    }
+
+    .about .row .img_icon a {
+        width: 100%;
+        position: relative;
+    }
+
+    .about .row .img_icon {
+        width: 100%;
+    }
+
+    .about .row .img_icon .icon {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+
+    .about .row .contain {
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .about .row .contain .button a:first-child {
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .about .row .contain .button a:last-child {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    /* about end  */
+    /* process start  */
+    .process {
+        padding: null;
+    }
+
+    .process .row .contain {
+        width: 100%;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+    .process .row .process_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    /* process end  */
+    /* portfoilo start  */
+    .portfoilo .row .portfolio_box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    /* portfoilo end  */
+    /* blog start  */
+    .blog .row .blog_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* blog end  */
+    /* user start  */
+    .user .row .contain {
+        width: 100%;
+    }
+
+    .user .row .user_box .box {
+        width: 100%;
+        height: 100%;
+        padding: 12px;
+    }
+
+    .user .row .user_box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* user end  */
+    .clint .row {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    /* project start  */
+    .project .row .contain {
+        width: 100%;
+        margin: auto;
+    }
+
+    .project .row .contain .sub_row {
+        width: 110%;
+        margin-bottom: 20px;
+    }
+
+    .project .row .form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+
+    }
+
+    .project .row .form form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .project .row .form form .input_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project .row .form form .form_row .input_box #budget {
+        width: 100%;
+        display: block;
+
+
+    }
+
+    .project .row .form form .form_row .input_box #subject {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .project .row .contain .contain_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    /* project end  */
+    /* footer start  */
+    footer .row{
+        transform: none;
+    }
+    footer .row .logo{
+        width: 100%;
+    }
+    footer .row .menu_bar {
+        width: 100%;
+    }
+    footer .row .menu_bar ul li a{
+        width: 20%;
+        display: flex;
+        margin: 10px 15px;
+        padding: 10px 20px;
+    }
+    footer .row p{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* footer end  */
+}
